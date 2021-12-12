@@ -17,6 +17,11 @@ So as to access the project in your local file ,you have to clone it using the s
  2.Use this command to clone's git https://github.com/ruthjelimo/Akan-Names.git
  3.This will clone the repository into your local browser
  
+ ## Tech used
+  HTML
+  CSS
+  JAVASCRIPT
+ 
  ### License
  The project is under MIT license
 
