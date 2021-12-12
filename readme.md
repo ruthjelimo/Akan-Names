@@ -20,4 +20,5 @@ So as to access the project in your local file ,you have to clone it using the s
  ### License
  The project is under MIT license
 
- ## Live site view
+ ## Live site view ruthjelimo.github.io/akan-names/
+ 
