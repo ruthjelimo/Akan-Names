@@ -1,4 +1,4 @@
-<img sr ="image/akannnname.png">
+<img src ="image/akannnname.png">
 
 ## Akan-names
 By Ruth jelimo
