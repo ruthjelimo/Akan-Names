@@ -1,11 +1,9 @@
 function getAkanName() {
   event.preventDefault();
   var yearOfBirth = document.getElementById("year-input").value;
-  console.log(yearOfBirth);
   var monthOfBirth = parseInt(document.getElementById("month-input").value);
-  console.log(monthOfBirth);
   var dayOfBirth = parseInt(document.getElementById("day-input").value);
-  console.log(dayOfBirth);
+  
   var genders = document.getElementsByName("gender");
   console.log(genders);
 
@@ -107,7 +105,7 @@ function getAkanName() {
       daysOfWeek[index] +
       " , your Akan name is " +
       maleAkanNames[index];
-    document.getElementById("display-name").textContent = "Your Akan name is: ";
+    document.getElementById("output-name").textContent = "Your Akan name is: ";
     return false;
   } else if (myGenderValue == "female" && monthValid && dayValid) {
     document.getElementById("result").textContent =
@@ -115,7 +113,7 @@ function getAkanName() {
       daysOfWeek[index] +
       " , your Akan name is " +
       femaleAkanNames[index];
-    document.getElementById("display-name").textContent =
+    document.getElementById("output-name").textContent =
       "Your Akan name is : ";
     return false;
   } else {
