@@ -43,6 +43,16 @@ p{
     height: 140;
 
 }
+#male-input{
+    margin-left:50px;
+}
+#female-input{
+    margin-left:40px;
+}
+#name-input{
+    margin-left:30px;
+}
+    
 .footer{
     background-color: yellow;
     margin-top: -20px;
@@ -55,23 +65,3 @@ p{
 
     
 
-/* .about h2{
-    text-align: center;
-    margin-top: -80px;
-}
-.about  p{
-    font-size: larger;  
-    color: black;
-    margin-left: 10px;
-}
-.wrapper{
-    background-image: url("images/ciry.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-     
-}
-.container button{
-    background-color: yellowgreen;
-    padding: 5px;
-} */
